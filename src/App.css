@@ -10,7 +10,7 @@
   font-style: normal;
   font-weight: normal;
 }
-@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@300..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Merienda:wght@300..900&display=swap");
 /* @import url("https://fonts.googleapis.com/css2?family=Merienda&family=Roboto&display=swap"); */
 @import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Merienda&family=Roboto&display=swap");
 
@@ -111,7 +111,7 @@ p {
 .nav-pad {
   padding: 11px !important;
   border-radius: 50px;
-  font-family:"Merienda" !important;
+  font-family: "Merienda" !important;
 }
 .navbar-nav .nav-link.active {
   color: #e2d222 !important;
@@ -163,8 +163,6 @@ p {
   margin-right: 16px;
 }
 
-
-
 .helvetica {
   font-family: "Merienda";
 }
@@ -181,7 +179,6 @@ p {
 .crackerscenter {
   width: 78%;
 }
-
 
 .about-us {
   display: flex;
@@ -280,7 +277,7 @@ p {
 .quote {
   font-size: 55px;
   color: #fff;
-  font-family:"Merienda";
+  font-family: "Merienda";
 }
 .mark-bg {
   background-color: #081e6d;
@@ -293,12 +290,10 @@ p {
   font-family: "Merienda";
 }
 .bg-img {
-  
-background-color: #EDF4C2;
- 
+  background-color: white;
+
   height: auto;
 }
-
 
 .gpay {
   width: 185px;
@@ -317,11 +312,11 @@ background-color: #EDF4C2;
 .list-unstyled li a {
   text-decoration: none !important;
   color: #ffffff !important;
-  font-family:"Merienda";
+  font-family: "Merienda";
 }
 .rules {
   line-height: 35px;
-  font-family:"Merienda";
+  font-family: "Merienda";
 }
 .footer-bg {
   background-color: #001b5a;
@@ -431,7 +426,7 @@ background-color: #EDF4C2;
   -webkit-animation: blink 1s;
   animation-iteration-count: 1;
   -webkit-animation-iteration-count: infinite;
-font-family: 'Merienda';
+  font-family: "Merienda";
   position: relative;
   left: 10px;
   padding: 12px 20px;
@@ -444,7 +439,6 @@ font-family: 'Merienda';
     margin-left: 0;
     width: 100%;
   }
-  
 }
 @media (max-width: 768px) {
   .about-us {
