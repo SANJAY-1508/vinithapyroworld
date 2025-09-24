@@ -26,7 +26,7 @@ const About = () => {
     <>
       <AppBarThree />
       <img
-        src={require("../assets/sivasakthicrackersimage/aboutbanner.webp")}
+        src={require("../assets/images/banner_one.jpg")}
         className="img-fluid w-100"
         alt="product name"
       />
