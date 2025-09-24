@@ -35,7 +35,7 @@ const Home = () => {
       <div className="over">
         <AppBarThree />
         <img
-          src={require("../assets/images/banner_one.jpg")}
+          src={require("../assets/images/banner/banner_elevel.jpg")}
           className="img-fluid w-100"
           alt="product name"
         />

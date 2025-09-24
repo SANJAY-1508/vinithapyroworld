@@ -20,7 +20,7 @@ const ContactUs = () => {
       />
       <AppBarThree />
       <img
-        src={require("../assets/sivasakthicrackersimage/contactbanner.webp")}
+        src={require("../assets/images/banner/banner_three.jpg")}
         className="img-fluid w-100"
         alt="product name"
       />
