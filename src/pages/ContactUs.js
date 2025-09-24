@@ -69,7 +69,7 @@ const ContactUs = () => {
                 height="600"
                 style={{ border: 0 }}
                 allowFullScreen
-                title="Google Maps Embed of Sri Siva Sakthi, Tamil Nadu"
+                title="Google Maps Embed of Vinitha Pyro World, Tamil Nadu"
               />
             </>
           </Col>

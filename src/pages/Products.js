@@ -40,11 +40,11 @@ const Products = () => {
   return (
     <>
       <MetaTags
-        title="Crackers Price List | Sri Siva Sakthi fireworks | Best Crackers Shops"
+        title="Crackers Price List | Vinitha Pyro World | Best Crackers Shops"
         type="website"
-        siteName="srisivasakthicrackers.com"
-        url="https://srisivasakthicrackers.com/products"
-        keywords="Wholesale Crackers | Sri Siva Sakthi fireworks | Retails Crackers | Including sparklers, rockets, and more | Celebrate Diwali with affordable and exciting crackers"
+        siteName="vinithapyroworld.com"
+        url="https://vinithapyroworld.com/products"
+        keywords="Wholesale Crackers | Vinitha Pyro World | Retails Crackers | Including sparklers, rockets, and more | Celebrate Diwali with affordable and exciting crackers"
         description="Find the best deals on a wide variety of fireworks"
         revisitAfter="10 Days"
       />
