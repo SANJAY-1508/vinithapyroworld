@@ -11,7 +11,7 @@ import Carousal from "./components/Carousal";
 const About = () => {
   const navigate = useNavigate();
   const handlenavigate = () => {
-    navigate("/products");
+    navigate("/");
   };
   useEffect(() => {
     AOS.init({

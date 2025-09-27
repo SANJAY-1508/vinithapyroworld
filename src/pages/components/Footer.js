@@ -12,11 +12,11 @@ const Footer = () => {
   const navigate = useNavigate();
   const location = useLocation();
   const handlenavigate = () => {
-    navigate("/products");
+    navigate("/");
   };
   return (
     <>
-      {location.pathname !== "/products" && (
+      {location.pathname !== "/" && (
         <div className="fixed point2 blink" onClick={handlenavigate}>
           <img
             src={require("../../assets/sivasakthicrackersimage/quickpurchase.png")}
@@ -75,13 +75,13 @@ const Footer = () => {
                     <h4 className="bold"> Quick Links</h4>
                     <ul className="list-unstyled">
                       <li className="mx-3 pb-3 smallfnt">
-                        <Link to="/">Home</Link>
+                        <Link to="/home">Home</Link>
                       </li>
                       <li className="mx-3 pb-3 smallfnt">
                         <Link to="/about">About</Link>
                       </li>
                       <li className="mx-3 pb-3 smallfnt">
-                        <Link to="/products">Products</Link>
+                        <Link to="/">Products</Link>
                       </li>
                       <li className="mx-3 pb-3 smallfnt">
                         <Link to="/safetytips">Safety Tips</Link>

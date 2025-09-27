@@ -151,13 +151,13 @@ const AppBar = () => {
 
             <Navbar.Collapse id="basic-navbar-nav">
               <Nav className="ms-auto text-center py-3">
-                <Nav.Link as={NavLink} exact to={"/"}>
+                <Nav.Link as={NavLink} exact to={"/home"}>
                   Home
                 </Nav.Link>
                 <Nav.Link as={NavLink} exact to={"/about"}>
                   About
                 </Nav.Link>
-                <Nav.Link as={NavLink} exact to={"/products"}>
+                <Nav.Link as={NavLink} exact to={"/"}>
                   Pricelist
                 </Nav.Link>
                 <Nav.Link as={NavLink} exact to={"/safetytips"}>
@@ -314,13 +314,13 @@ const AppBarTwo = () => {
             </div>
             <Navbar.Collapse id="basic-navbar-nav">
               <Nav className="me-auto text-center">
-                <Nav.Link as={NavLink} exact to={"/"}>
+                <Nav.Link as={NavLink} exact to={"/home"}>
                   Home
                 </Nav.Link>
                 <Nav.Link as={NavLink} exact to={"/about"}>
                   About
                 </Nav.Link>
-                <Nav.Link as={NavLink} exact to={"/products"}>
+                <Nav.Link as={NavLink} exact to={"/"}>
                   Pricelist
                 </Nav.Link>
                 <Nav.Link as={NavLink} exact to={"/safetytips"}>
@@ -491,7 +491,7 @@ const AppBarThree = () => {
             </div>
             <Navbar.Collapse id="basic-navbar-nav">
               <Nav className="me-auto text-center">
-                <Nav.Link as={NavLink} exact to={"/"} className="margin-20">
+                <Nav.Link as={NavLink} exact to={"/home"} className="margin-20">
                   <IoHome />
                   Home
                 </Nav.Link>
@@ -499,7 +499,7 @@ const AppBarThree = () => {
                 <Nav.Link
                   as={NavLink}
                   exact
-                  to={"/products"}
+                  to={"/"}
                   className="margin-20"
                 >
                   <ImPriceTag />
@@ -532,13 +532,13 @@ const AppBarThree = () => {
             </div>
             <Navbar.Collapse id="basic-navbar-nav">
               <Nav className="me-auto text-center">
-                <Nav.Link as={NavLink} exact to={"/"}>
+                <Nav.Link as={NavLink} exact to={"/home"}>
                   Home
                 </Nav.Link>
                 <Nav.Link as={NavLink} exact to={"/about"}>
                   About
                 </Nav.Link>
-                <Nav.Link as={NavLink} exact to={"/products"}>
+                <Nav.Link as={NavLink} exact to={"/"}>
                   Pricelist
                 </Nav.Link>
                 <Nav.Link as={NavLink} exact to={"/safetytips"}>

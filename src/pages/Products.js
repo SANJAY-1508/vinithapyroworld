@@ -43,7 +43,7 @@ const Products = () => {
         title="Crackers Price List | Vinitha Pyro World | Best Crackers Shops"
         type="website"
         siteName="vinithapyroworld.com"
-        url="https://vinithapyroworld.com/products"
+        url="https://vinithapyroworld.com/"
         keywords="Wholesale Crackers | Vinitha Pyro World | Retails Crackers | Including sparklers, rockets, and more | Celebrate Diwali with affordable and exciting crackers"
         description="Find the best deals on a wide variety of fireworks"
         revisitAfter="10 Days"

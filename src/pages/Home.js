@@ -27,7 +27,7 @@ const Home = () => {
     navigate("/about");
   };
   const handleproductnavigate = () => {
-    navigate("/products");
+    navigate("/");
   };
 
   return (
@@ -282,21 +282,21 @@ const Home = () => {
                   </figure>
                   <div class="text p_absolute padd35 bg_white tran_5">
                     <h3 class="arial p_relative fs_24">
-                      <a href="products.php" class="d_iblock black">
+                      <a href="/" class="d_iblock black">
                         Ground Chakkar
                       </a>
                     </h3>
                   </div>
                   <div class="overlay-content p_absolute padd35 bg_yellow tran_5">
                     <h3 class="arial p_relative fs_24">
-                      <a href="products.php" class="p_relative d_iblock black">
+                      <a href="/" class="p_relative d_iblock black">
                         Ground Chakkar
                       </a>
                     </h3>
                     <p class="helvetica text-center clr1">Vinitha Pyro World</p>
                     <div class="btn1">
                       <a
-                        href="/products"
+                        href="/"
                         onClick={handlenavigate}
                         class="helvetica"
                       >
@@ -322,21 +322,21 @@ const Home = () => {
                   </figure>
                   <div class="text p_absolute padd35 bg_white tran_5">
                     <h3 class="arial p_relative fs_24">
-                      <a href="products.php" class="d_iblock black">
+                      <a href="/" class="d_iblock black">
                         Sky Shots
                       </a>
                     </h3>
                   </div>
                   <div class="overlay-content p_absolute padd35 bg_yellow tran_5">
                     <h3 class="arial p_relative fs_24">
-                      <a href="products.php" class="p_relative d_iblock black">
+                      <a href="/" class="p_relative d_iblock black">
                         Sky Shots
                       </a>
                     </h3>
                     <p class="helvetica text-center clr1">Vinitha Pyro World</p>
                     <div class="btn1">
                       <a
-                        href="/products"
+                        href="/"
                         onClick={handlenavigate}
                         class="helvetica"
                       >
@@ -362,21 +362,21 @@ const Home = () => {
                   </figure>
                   <div class="text p_absolute padd35 bg_white tran_5">
                     <h3 class="arial p_relative fs_24">
-                      <a href="products.php" class="d_iblock black">
+                      <a href="/" class="d_iblock black">
                         Flower Pots
                       </a>
                     </h3>
                   </div>
                   <div class="overlay-content p_absolute padd35 bg_yellow tran_5">
                     <h3 class="arial p_relative fs_24">
-                      <a href="products.php" class="p_relative d_iblock black">
+                      <a href="/" class="p_relative d_iblock black">
                         Flower Pots
                       </a>
                     </h3>
                     <p class="helvetica text-center clr1">Vinitha Pyro World</p>
                     <div class="btn1">
                       <a
-                        href="/products"
+                        href="/"
                         onClick={handlenavigate}
                         class="helvetica"
                       >
@@ -402,21 +402,21 @@ const Home = () => {
                   </figure>
                   <div class="text p_absolute padd35 bg_white tran_5">
                     <h3 class="arial p_relative fs_24">
-                      <a href="products.php" class="d_iblock black">
+                      <a href="/" class="d_iblock black">
                         Single Sound
                       </a>
                     </h3>
                   </div>
                   <div class="overlay-content p_absolute padd35 bg_yellow tran_5">
                     <h3 class="arial p_relative fs_24">
-                      <a href="products.php" class="p_relative d_iblock black">
+                      <a href="/" class="p_relative d_iblock black">
                         Single Sound
                       </a>
                     </h3>
                     <p class="helvetica text-center clr1">Vinitha Pyro World</p>
                     <div class="btn1">
                       <a
-                        href="/products"
+                        href="/"
                         onClick={handlenavigate}
                         class="helvetica"
                       >
@@ -442,21 +442,21 @@ const Home = () => {
                   </figure>
                   <div class="text p_absolute padd35 bg_white tran_5">
                     <h3 class="arial p_relative fs_24">
-                      <a href="products.php" class="d_iblock black">
+                      <a href="/" class="d_iblock black">
                         Rockets
                       </a>
                     </h3>
                   </div>
                   <div class="overlay-content p_absolute padd35 bg_yellow tran_5">
                     <h3 class="arial p_relative fs_24">
-                      <a href="products.php" class="p_relative d_iblock black">
+                      <a href="/" class="p_relative d_iblock black">
                         Rockets
                       </a>
                     </h3>
                     <p class="helvetica text-center clr1">Vinitha Pyro World</p>
                     <div class="btn1">
                       <a
-                        href="/products"
+                        href="/"
                         onClick={handlenavigate}
                         class="helvetica"
                       >
@@ -482,21 +482,21 @@ const Home = () => {
                   </figure>
                   <div class="text p_absolute padd35 bg_white tran_5">
                     <h3 class="arial p_relative fs_24">
-                      <a href="products.php" class="d_iblock black">
+                      <a href="/" class="d_iblock black">
                         Sparklers
                       </a>
                     </h3>
                   </div>
                   <div class="overlay-content p_absolute padd35 bg_yellow tran_5">
                     <h3 class="arial p_relative fs_24">
-                      <a href="products.php" class="p_relative d_iblock black">
+                      <a href="/" class="p_relative d_iblock black">
                         Sparklers
                       </a>
                     </h3>
                     <p class="helvetica text-center clr1">Vinitha Pyro World</p>
                     <div class="btn1">
                       <a
-                        href="/products"
+                        href="/"
                         onClick={handlenavigate}
                         class="helvetica"
                       >
@@ -531,7 +531,7 @@ const Home = () => {
                 </h4>
                 <div>
                   <a
-                    href="/products"
+                    href="/"
                     onClick={handlenavigate}
                     class="paralbtn btn-5"
                   >

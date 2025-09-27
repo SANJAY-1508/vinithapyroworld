@@ -22,9 +22,9 @@ function App() {
       <BrowserRouter>
         <ScrollToTop />
         <Routes>
-          <Route path="/" element={<Home />} />
+          <Route path="/home" element={<Home />} />
           <Route path="/about" element={<About />} />
-          <Route path="/products" element={<Products />} />
+          <Route path="/" element={<Products />} />
           <Route path="/safetytips" element={<SafetyTipsTwo />} />
           <Route path="/contactus" element={<ContactUs />} />
           <Route path="/orderpreview" element={<OrderPreview />} />

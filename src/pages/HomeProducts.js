@@ -10,7 +10,7 @@ import { Link } from 'react-router-dom';
 const HomeProductsOne= () => {
     const navigate = useNavigate();
     const handlenavigate = () => {
-        navigate('/products');
+        navigate('/');
     }
   return (
     <>
@@ -137,7 +137,7 @@ const HomeProductsOne= () => {
 const HomeProductsTwo = () => {
     const navigate = useNavigate();
     const handlenavigate = () => {
-        navigate('/products');
+        navigate('/');
     }
   return (
     <>
@@ -261,32 +261,32 @@ const HomeProductThree = () => {
         </div>
         <Slider {...settings} className='padding'>
           <div className="slider-image">
-            <Link to="/products">  {/* Add Link to wrap the image */}
+            <Link to="/">  {/* Add Link to wrap the image */}
               <img src={require('../assets/images/homeproducts/homeproducts_three/Chakkar.webp')} className='img-fluid brd' alt='Chakkar' />
             </Link>
           </div>
           <div className="slider-image">
-            <Link to="/products">
+            <Link to="/">
               <img src={require('../assets/images/homeproducts/homeproducts_three/Flower-pots.webp')} className='img-fluid brd' alt='Flower Pots' />
             </Link>
           </div>
           <div className="slider-image">
-            <Link to="/products">
+            <Link to="/">
               <img src={require('../assets/images/homeproducts/homeproducts_three/Rocket.webp')} className='img-fluid brd' alt='Rocket' />
             </Link>
           </div>
           <div className="slider-image">
-            <Link to="/products">
+            <Link to="/">
               <img src={require('../assets/images/homeproducts/homeproducts_three/Sound-crackers.webp')} className='img-fluid brd' alt='Sound Crackers' />
             </Link>
           </div>
           <div className="slider-image">
-            <Link to="/products">
+            <Link to="/">
               <img src={require('../assets/images/homeproducts/homeproducts_three/garland.webp')} className='img-fluid brd' alt='Garland' />
             </Link>
           </div>
           <div className="slider-image">
-            <Link to="/products">
+            <Link to="/">
               <img src={require('../assets/images/homeproducts/homeproducts_three/sparkler.webp')} className='img-fluid brd' alt='Sparkler' />
             </Link>
           </div>
